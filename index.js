@@ -97,7 +97,7 @@ function App() {
           <button onClick={() => setRecording("")} className="btn btn-danger">clear</button>
           <br/>
           <h4>Speed</h4>
-          <input type="range" step="0.01" onChange={(e) => setSpeed(e.target.value)} value={volume} max="1.2" min="0.1" className="w-50" />
+          <input type="range" step="0.01" onChange={(e) => setSpeed(e.target.value)} value={speed} max="1.2" min="0.1" className="w-50" />
           </>
         )}
       </div>
